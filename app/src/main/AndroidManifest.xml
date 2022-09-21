@@ -9,13 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WcqSqlite1">
-        <activity android:name=".ListaUsuarioSpinner"
-            android:exported="true">
-
-        </activity>
-
         <activity
-            android:name=".ListarUsuarios"
+            android:name=".Gestion"
+            android:label="@string/title_activity_gestion"
+            android:theme="@style/Theme.WcqSqlite1.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,20 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".ListaUsuarioSpinner"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ListarUsuarios"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".ConsultarUsuario"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".InsertarUsuario"
-            android:exported="true">
-
-        </activity>
-
+            android:exported="true"></activity>
         <activity android:name=".MainActivity" />
-
     </application>
 
 </manifest>
