@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConsultarUsuario">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Usuario"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtConsulIdUsuario"
+        android:textSize="26sp"
+        android:layout_margin="15dp"
+        android:hint="Ingrese el Codigo a Buscar"
+        ></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:textSize="26sp"
+        android:layout_margin="15dp"
+        android:text=" "
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefono"
+        android:textSize="26sp"
+        android:layout_margin="15dp"
+        android:text=" "
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBuscar"
+        android:text="Buscar Usuario"
+        android:layout_margin="10dp"
+
+        ></Button>
+
+
+</LinearLayout>

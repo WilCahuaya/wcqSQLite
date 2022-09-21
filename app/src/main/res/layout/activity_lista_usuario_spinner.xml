@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListaUsuarioSpinner">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de usuarios"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/spiUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="15dp"
+        android:spinnerMode="dropdown"
+        ></Spinner>
+
+    <TextView
+        android:id="@+id/txtIdSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/txtNombreSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:id="@+id/txtTelefonoSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="15dp"/>
+</LinearLayout>
