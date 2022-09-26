@@ -17,6 +17,18 @@
         tools:layout="@layout/fragment_insertar_usuario" />
 
     <fragment
+        android:id="@+id/nav_listarUsuario"
+        android:name="com.example.wcqsqlite1.ui.ListUsuarioFragment"
+        android:label="@string/menu_listartarUsuario"
+        tools:layout="@layout/fragment_list_usuario" />
+
+    <fragment
+        android:id="@+id/nav_listarUsuarioSpinner"
+        android:name="com.example.wcqsqlite1.ui.ListUsuarioSpinerFragment"
+        android:label="@string/menu_listartarUsuarioSpinner"
+        tools:layout="@layout/fragment_list_usuario_spiner" />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.wcqsqlite1.ui.home.HomeFragment"
         android:label="@string/menu_home"

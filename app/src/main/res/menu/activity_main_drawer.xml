@@ -4,14 +4,23 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_insertarUsuario"
+            android:icon="@drawable/ic_insusuario"
+            android:title="@string/menu_insertUsuario" />
         <item
             android:id="@+id/nav_consultarUsuario"
             android:icon="@drawable/ic_consul_usuario"
             android:title="@string/menu_consultarUsuario" />
         <item
-            android:id="@+id/nav_insertarUsuario"
-            android:icon="@drawable/ic_insusuario"
-            android:title="@string/menu_insertUsuario" />
+            android:id="@+id/nav_listarUsuario"
+            android:icon="@drawable/ic_list_usuario"
+            android:title="@string/menu_listartarUsuario" />
+        <item
+            android:id="@+id/nav_listarUsuarioSpinner"
+            android:icon="@drawable/ic_list_usuario_spiner"
+            android:title="@string/menu_listartarUsuarioSpinner" />
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"

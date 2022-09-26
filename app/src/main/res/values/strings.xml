@@ -15,4 +15,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_insertUsuario">Insertar Usuario</string>
     <string name="menu_consultarUsuario">Consultar Usuario</string>
+    <string name="menu_listartarUsuario">Listar Usuario</string>
+    <string name="menu_listartarUsuarioSpinner">Listar Usuario Spinner</string>
 </resources>
